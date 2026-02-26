@@ -1,0 +1,21 @@
+2026-02-05 08:11:20 | ERROR | db | DB timeout
+2026-02-05 08:11:21 | INFO | auth | User login successful
+2026-02-05 08:11:22 | WARN | api | Slow response (920ms)
+BAD LINE WITHOUT SEPARATORS
+2026-02-05 08:11:23 | ERROR | api | Connection refused
+2026-02-05 08:11:24 | INFO | db | Query completed in 12ms
+   
+2026-02-05 08:11:25 | DEBUG | auth | Token refreshed
+2026-02-05 | INFO | auth | ok | EXTRA
+2026-02-05 08:11:26 | ERROR | cache | Cache miss ratio high
+2026-02-05 08:11:27 | INFO | api | Request received
+ANOTHER BAD LINE
+2026-02-05 08:11:28 | WARN | db | Slow query detected
+2026-02-05 08:11:29 | INFO | auth | Session expired
+2026-02-05 08:11:30 | ERROR | api | Timeout after 30s
+2026-02-05 08:11:31 | INFO | cache | Cache warmed up
+||| this line has no proper timestamp
+2026-02-05 08:11:32 | DEBUG | db | Index scan used
+2026-02-05 08:11:33 | ERROR | auth | Invalid token
+2026-02-05 08:11:34 | INFO | api | Health check passed
+2026-02-05 08:11:35 | WARN | cache | Memory usage at 80%

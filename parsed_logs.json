@@ -1,0 +1,104 @@
+[
+  {
+    "timestamp": "2026-02-05 08:11:20",
+    "level": "ERROR",
+    "service": "db",
+    "message": "DB timeout"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:21",
+    "level": "INFO",
+    "service": "auth",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:22",
+    "level": "WARN",
+    "service": "api",
+    "message": "Slow response (920ms)"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:23",
+    "level": "ERROR",
+    "service": "api",
+    "message": "Connection refused"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:24",
+    "level": "INFO",
+    "service": "db",
+    "message": "Query completed in 12ms"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:25",
+    "level": "DEBUG",
+    "service": "auth",
+    "message": "Token refreshed"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:26",
+    "level": "ERROR",
+    "service": "cache",
+    "message": "Cache miss ratio high"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:27",
+    "level": "INFO",
+    "service": "api",
+    "message": "Request received"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:28",
+    "level": "WARN",
+    "service": "db",
+    "message": "Slow query detected"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:29",
+    "level": "INFO",
+    "service": "auth",
+    "message": "Session expired"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:30",
+    "level": "ERROR",
+    "service": "api",
+    "message": "Timeout after 30s"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:31",
+    "level": "INFO",
+    "service": "cache",
+    "message": "Cache warmed up"
+  },
+  {
+    "timestamp": "",
+    "level": "",
+    "service": "",
+    "message": "this line has no proper timestamp"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:32",
+    "level": "DEBUG",
+    "service": "db",
+    "message": "Index scan used"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:33",
+    "level": "ERROR",
+    "service": "auth",
+    "message": "Invalid token"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:34",
+    "level": "INFO",
+    "service": "api",
+    "message": "Health check passed"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:35",
+    "level": "WARN",
+    "service": "cache",
+    "message": "Memory usage at 80%"
+  }
+]
