@@ -1,0 +1,31 @@
+Task 1 (Parse Single Line)
+Case 1 [PASS]: expected=('2026-02-05 08:11:20', 'ERROR', 'db', 'DB timeout') got=('2026-02-05 08:11:20', 'ERROR', 'db', 'DB timeout')
+Case 2 [PASS]: expected=('2026-02-05 08:11:20', 'ERROR', 'db', 'DB timeout') got=('2026-02-05 08:11:20', 'ERROR', 'db', 'DB timeout')
+Case 3 [PASS]: expected=None got=None
+Case 4 [PASS]: expected=None got=None
+
+Task 2 (Parse List)
+Parsed results:
+('2026-02-05 08:11:20', 'ERROR', 'db', 'DB timeout')
+('2026-02-05 08:11:25', 'warn', 'api', 'Slow response (920ms)')
+
+Total input lines : 4
+Valid parsed lines : 2
+Skipped (invalid) : 2
+
+Task 3 (Parse File)
+('2026-02-05 08:11:20', 'ERROR', 'db', 'DB timeout')
+('2026-02-05 08:11:21', 'INFO', 'auth', 'User login successful')
+('2026-02-05 08:11:22', 'WARN', 'api', 'Slow response (920ms)')
+('2026-02-05 08:11:23', 'ERROR', 'api', 'Connection refused')
+('2026-02-05 08:11:24', 'INFO', 'db', 'Query completed in 12ms')
+
+Total valid lines found: 17
+
+Task 4 (Count Invalids)
+Total lines: 21
+Valid lines: 17
+Invalid format lines: 4
+
+Task 5 (Export JSON)
+Wrote 17 records to parsed_logs.json
